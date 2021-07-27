@@ -1,0 +1,102 @@
+nav{
+    background-color: blue;
+    font-size: 20px;
+}
+/* CLASS SELECTOR'S,*/
+.li{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ID SELECTOR'S*/
+#h2{
+    color: blue;
+    font-weight: 100;
+}
+/*GROUPING SELECTOR'S*/
+P,h2,p{
+    color: chartreuse;
+}
+/*BACKGROUND COLOR*/
+body{
+    background-color: green;
+}
+p{
+    background-color: green;
+}
+h2{
+    background-color: black;
+}
+p{
+    background-color: blueviolet;
+}
+/*BACKGROUND IMAGE'S*/
+body{
+    background-image: url("");
+}
+/*CSS PROPERTIES*/
+body{
+    border: indigo dashed;
+    border-radius: 8px;
+    border-color: chartreuse;
+}
+/*CSS TEXT*/
+#p{
+   text-decoration: brown;
+   text-align: justify;
+   text-transform: capitalize;
+/*   text-shadow: color*/
+}
+#p{
+    text-decoration: dashed;
+    text-align: justify;
+    text-transform: capitalize;
+}
+#h2{
+    text-decoration: dashed;
+    text-align: justify;
+    text-transform: capitalize;
+}
+/*FONT'S*/
+body{
+    font-family: sans-serif;
+    font-size: 2px;
+    font-weight: 800;
+}
+h1{
+    font-size: large;
+    color: black;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+/*CSS BORDER'S*/
+div{
+    border-style: none;
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+/*MARGIN AND PADDING*/
+/*margin is the ouside of box it has top right,bottom left*/
+/*padding is the inside of the box it has top left,bottom right*/
+nav > ul{
+    margin: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*to change the navbar ul  to none*/
+nav a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+nav > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+/*hover*/
+nav > ul >li >a:hover{
+    background-color: darkred;
+    color: black;
+}
